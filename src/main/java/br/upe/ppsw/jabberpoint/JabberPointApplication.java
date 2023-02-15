@@ -6,11 +6,12 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
-import br.upe.ppsw.jabberpoint.apresentacao.Accessor;
-import br.upe.ppsw.jabberpoint.apresentacao.Presentation;
-import br.upe.ppsw.jabberpoint.apresentacao.SlideViewerFrame;
-import br.upe.ppsw.jabberpoint.apresentacao.Style;
-import br.upe.ppsw.jabberpoint.apresentacao.XMLAccessor;
+
+import control.XMLAccessor;
+import model.Accessor;
+import model.Presentation;
+import view.SlideViewerFrame;
+import view.Style;
 
 @SpringBootApplication
 public class JabberPointApplication implements CommandLineRunner {
